@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="4.95" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.95"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.75"
+            android:background="@drawable/border"
+            android:ellipsize="none"
+            android:gravity="right"
+            android:inputType="number"
+            android:lines="2"
+            android:maxLength="30"
+            android:maxLines="2"
+            android:padding="15sp"
+            android:scrollHorizontally="true"
+            android:textAlignment="gravity"
+            android:textColor="@color/digitcolor"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:padding="15sp"
+            android:text="C"
+            android:textColor="@color/digitcolor"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="7"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="8"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="9"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="/"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="4"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="5"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="6"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/into"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="x"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="1"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="2"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="3"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="-"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/dot"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="."
+            android:textColor="@color/digitcolor"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="0"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/equals"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="="
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:padding="15sp"
+            android:text="+"
+            android:textColor="@color/digitcolor"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+</LinearLayout>
